@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    color: #312a26;
+}
+
+/*ALL HEADING TAGS*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+label,
+span,
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: #b3916e;
+}
+
+body{
+    width: 100%;
+}
+
+/*Header Area*/
+
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav h1{
+    width: 50%;
+    float: left;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+/*Banner Area*/
+
+.banner{
+    height: 650px;
+    background-color: #999999;
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.banner-text{
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 7.5%;
+}
+.banner h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+}
+.banner a{
+    padding: 15px 20px;
+    background-color: #312a26;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.banner span{
+    color: #4caf59;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner p{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/*ADS AREA 1*/
+
+.ads{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.ads-box{
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+}
+.ads-box:nth-child(1){
+    margin-right: 1%;
+}
+.ads-box:nth-child(1),
+.ads-box:nth-child(2) {
+    margin-bottom: 5%;
+}
+
+.ads-box:nth-child(1) {
+    background-image: url(../images/merchandise1.jpg);
+}
+.ads-box:nth-child(2) {
+    background-image: url(../images/merchandise2.jpg);
+}
+.ads-text{
+    width: 30%;
+    position: relative;
+    top: 30%;
+    left: 7.5%;
+}
+.ads-text h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+}
+.ads-text a{
+    color: white;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+/*MERCHANDISE HOUSE*/
+
+.merchandise{
+    overflow: auto;
+    margin-bottom: 5%;
+}
+.merchandise-text p{
+    font-style: italic;
+    color: #ffae1a;
+    line-height: 40px;
+    text-align: center;
+}
+.merchandise-text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.h{
+    width: 121px;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #e69d17;
+}
+
+/*PRODUCTS*/
+
+.products{
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.photos::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.product p{
+    color: #e9a72e;
+}
+
+.products2{
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product2{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.photos2::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.product2 p{
+    color: #e9a72e;
+}
+
+/*Another Advertisement*/
+
+.advertise{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.advertise-text{    
+    width: 100%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+}
+.advertise-text p{
+    font-style: italic;
+    margin-top: 125px;
+    color: wheat;
+}
+.advertise-text h2{
+    text-transform: uppercase;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.advertise-text a{
+    padding: 15px 20px;
+    background-color: white;
+    color: #312a26;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Merchandise Sale*/
+
+.merchandise-sale{
+    overflow: auto;
+    margin-bottom: 5%;
+}
+.merchandise-sale-text p{
+    font-style: italic;
+    color: #92807f;
+    line-height: 40px;
+    text-align: center;
+}
+.merchandise-sale-text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.l{
+    width: 121px;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #92807f;
+}
+
+/*MERCHANDISE SALE PRODUCT*/
+
+.sale{
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sale-product{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.sale-photos::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.sale-product p{
+    color: #e9a72e;
+}
+
+/*Adver area 2*/
+
+.adver{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.adver-box{
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+}
+.adver-box:nth-child(3){
+    margin-right: 1%;
+}
+.adver-box:nth-child(1){
+    margin-right: 1%;
+}
+.adver-box:nth-child(1),
+.adver-box:nth-child(2) {
+    margin-bottom: 1%;
+}
+
+.adver-box:nth-child(1){
+    background-image: url(../images/merchandise3.jpg);
+}
+.adver-box:nth-child(2){
+    background-image: url(../images/merchandise4.jpg);
+}
+.adver-box:nth-child(3){
+    background-image: url(../images/merchandise5.jpg);
+}
+.adver-box:nth-child(4){
+    background-image: url(../images/merchandise6.jpg);
+}
+
+.adver-text{
+    width: 30%;
+    position: relative;
+    top: 35%;
+    left: 7.5%;
+}
+.adver-text h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+}
+.adver-text a{
+    color: white;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+/*Reservation Form*/
+
+.form-reservation h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.r{
+    width: 121px;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #f0c16d;
+}
+
+.reservation{
+    background: whitesmoke;
+    max-width: 700px;
+    min-height: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 19px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 110px;
+    margin-bottom: 90px;
+}
+
+.form{
+    padding: 1rem;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    padding: 8px 11.2px;
+    margin: 8px 0;
+    outline: none;
+}
+
+.form select[name="reservationdetails"]{
+    width: 100%;
+    padding: 8px 11.2px;
+    margin: 8px 0;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.form input[name="date"]{
+    width: 100%;
+    padding: 8px 11.2px;
+    margin: 8px 0;
+    outline: none;
+}
+
+.reservation2{
+    background: whitesmoke;
+    max-width: 700px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 12px;
+}
+
+.container1{
+    display: flex;
+}
+
+.form2 h2{
+    text-align: center;
+}
+
+.form2 .payment{
+    text-align: center;
+    font-weight: 100;
+
+}
+
+.form2 input[type="text"]{
+    width: 100%;
+    padding: 8px 11.2px;
+    margin: 8px 0;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 11.2px 24px;
+    background: #009900;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #00ff00;
+}
+
+/*FOOTER 1*/
+
+.container{
+    max-width: 1500px;
+    background-color: none;
+    margin-left: 90px;
+    margin-right: 70px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #312a26;
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col thead th{
+    color: white;
+}
+
+.footer-col tr td{
+    color: white;
+}
+
+.footer-col h3{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.footer-col h4{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.footer-col .color{
+    color: #a37a52;
+    font-size: 16px;
+}
+
+.footer-col span{
+    color: #a37a52;
+    font-weight: 900;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col form input{
+    width: 200px;
+    height: 35px;
+    border-radius: 2px;
+}
+
+.footer-col form button{
+    background: #a37a52;
+    border: 2px;
+    border-radius: 2px;
+    color: wheat;
+    height: 35px;
+    width: 45px;
+}
+
+/*FOOTER 2*/
+
+.foot2{
+    height: 125px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer2 h3{
+    color: white;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 15px;
+}
+
+.footer2 li a{
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer2 p{
+    color: white;
+    margin-top: 45px;
+    margin-right: 90px;
+    font-family: sans-serif;
+}
